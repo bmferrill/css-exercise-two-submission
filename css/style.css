@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+}
+
+/*navbar*/
+
+nav {
+  background-color: rgba(73,73,73,1);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+a:hover {text-decoration:underline;}
+a:visted {color:#D3D3D3;}
+
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+/* V content starts here V */
+
+
+article {
+  padding-top: 100px;
+}
+
+/*photo and caption*/
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+figcaption {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+/*hed and subhed*/
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.12em;
+}
+
+/*byline and story*/
+
+.author {
+  font-weight: bold;
+  line-height: 3.5em;
+}
+
+.story-text, p {
+  line-height: 1.25em;
+}
